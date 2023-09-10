@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    margin-top: 5em;
+}
+
+table tr td button {
+    font-family: 'Times New Roman', Times, serif;
+    height: 2rem;
+    width: 5rem;
+    margin: 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table tr td button:active{
+    transform: translateY(4px);
+}
+
+table tr td button:hover {
+    /* border: 2px linear ; */
+    box-shadow: 2.5px 5px 4px #888888;
+}
+
+.form-control {
+    width: 50%;
+    display: flex;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 4px;
+    text-align: end;
+}
+
+#output{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 5px;
+    border: linen;
+    box-sizing: border-box;
+
+}
